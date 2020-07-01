@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('welcome', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
@@ -23,7 +23,20 @@ Route::get('welcome/about', function () {
 
 
 Route::get('welcome/datos', function () {
-    return ('nosotros somos una blablabla...');
-})->name('About');
+    return ('los objetivos son blablabla...');
+})->name('objetivos');
+
+
+Route::get('welcome/mision', function () {
+    return ('Nuestra misión blablabla...');
+})->name('mision');
+
+Route::get('welcome/vision', function () {
+    return ('Nuestra visión blablabla...');
+})->name('vision');
+
 
 Route::get('welcome/history','History@history')->name('history');
+
+Route::get('welcome/inspire','inspire@inspire')->name('inspire');
+

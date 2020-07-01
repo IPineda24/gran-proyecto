@@ -75,5 +75,9 @@
       <h2>In this site you can organizated all your data </h2>
       <p><a href="<?php echo route('About')?>">About us</a></p>
       <p><a href="<?php echo route('history')?>">History</a></p>
+      <p><a href="<?php echo route('objetivos')?>">objetivos</a></p>
+      <p><a href="<?php echo route('mision')?>">mision</a></p>
+      <p><a href="<?php echo route('vision')?>">vision</a></p>
+      <p><a href="<?php echo route('inspire')?>">Nuestra inspiración</a></p>
     </body>
 </html>
