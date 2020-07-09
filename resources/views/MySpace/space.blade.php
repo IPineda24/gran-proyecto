@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-      
-        <title>PIDATA</title>
-
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Space</title>
+</head>
+<style>
             html, body {
                 margin-top: 0;
                 background-color: #4ABDAC;
@@ -52,21 +47,15 @@
                 color: #DFDCE3;  
             }
         </style>
-    </head>
-    <body>
-        <H1>WELCOME TO PIDATA</H1>
-      <h2>In this site you can organizated all your data </h2>
+<body>
+<H1>My Space</H1>
+      <h2>what do you want to do?</h2>
 
         <div class="container">
-<div class="cont"> <p><a href="<?php echo route('about')?>">About us</a></p></div>
-<div class="cont"> <p><a href="<?php echo route('history')?>">History</a></p></div>
-<div class="cont"> <p><a href="<?php echo route('mision')?>">mision</a></p></div>
-<div class="cont"> <p><a href="<?php echo route('vision')?>">vision</a></p></div>
-<div class="cont"> <p><a href="<?php echo route('inspire')?>">our inspiration</a></p></div>
-<div class="cont"> <p><a href="<?php echo route('my_space')?>">Personal Space</a></p></div>
-     
-  
-        </div>
-   
-    </body>
+<div class="cont"> <p><a href="<?php echo route('view')?>">ver</a></p></div>
+<div class="cont"> <p><a href="<?php echo route('edit')?>">editar</a></p></div>
+<div class="cont"> <p><a href="<?php echo route('new')?>">nuevo</a></p></div>
+<div class="cont"> <p><a href="<?php echo route('print')?>">imprimir</a></p></div>
+
+</body>
 </html>
